@@ -50,6 +50,7 @@ input {
     padding: 6px;
     border-radius: 5px;
     border-color: #41c8fd;
+    box-shadow: inset #000 1px 1px 5px;
 }
 
 button {
@@ -58,12 +59,14 @@ button {
     border-radius: 10px;
     background: #41c8fd;
     color: #fff;
-    font-size: 1rem;
-    border-color: #ffffff;
+    font-size: 0.9rem;
+    border: none;
+    box-shadow: #000 2px 2px 5px;
 }
 
 button:active{
-    background-color: #096083;
+    background-color: #0c98cf;
+    box-shadow: inset #000 1px 1px 5px ;
 }
 
 .resultado {
